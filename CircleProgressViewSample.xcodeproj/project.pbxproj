@@ -14,6 +14,7 @@
 		2A1C115C1FD1573B00C1945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C115A1FD1573B00C1945C /* LaunchScreen.storyboard */; };
 		2A1C11671FD1573B00C1945C /* CircleProgressViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C11661FD1573B00C1945C /* CircleProgressViewSampleTests.swift */; };
 		2A1C11721FD1573B00C1945C /* CircleProgressViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C11711FD1573B00C1945C /* CircleProgressViewSampleUITests.swift */; };
+		2A43ADAE1FD17A8D00D6762A /* circleprogressview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2A43ADAD1FD17A8D00D6762A /* circleprogressview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2A1C116D1FD1573B00C1945C /* CircleProgressViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1C11711FD1573B00C1945C /* CircleProgressViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewSampleUITests.swift; sourceTree = "<group>"; };
 		2A1C11731FD1573B00C1945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A43ADAD1FD17A8D00D6762A /* circleprogressview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = circleprogressview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		2A1C11501FD1573B00C1945C /* CircleProgressViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				2A43ADAC1FD17A7D00D6762A /* media */,
 				2A1C11511FD1573B00C1945C /* AppDelegate.swift */,
 				2A1C11531FD1573B00C1945C /* ViewController.swift */,
 				2A1C11551FD1573B00C1945C /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				2A1C11731FD1573B00C1945C /* Info.plist */,
 			);
 			path = CircleProgressViewSampleUITests;
+			sourceTree = "<group>";
+		};
+		2A43ADAC1FD17A7D00D6762A /* media */ = {
+			isa = PBXGroup;
+			children = (
+				2A43ADAD1FD17A8D00D6762A /* circleprogressview.gif */,
+			);
+			name = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A43ADAE1FD17A8D00D6762A /* circleprogressview.gif in Resources */,
 				2A1C115C1FD1573B00C1945C /* LaunchScreen.storyboard in Resources */,
 				2A1C11591FD1573B00C1945C /* Assets.xcassets in Resources */,
 				2A1C11571FD1573B00C1945C /* Main.storyboard in Resources */,
@@ -507,6 +519,7 @@
 				2A1C11781FD1573B00C1945C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1C11791FD1573B00C1945C /* Build configuration list for PBXNativeTarget "CircleProgressViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				2A1C117B1FD1573B00C1945C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1C117C1FD1573B00C1945C /* Build configuration list for PBXNativeTarget "CircleProgressViewSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				2A1C117E1FD1573B00C1945C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
